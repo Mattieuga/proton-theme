@@ -2,9 +2,9 @@
   "name": "proton",
   "theme": "ui",
   "version": "0.1",
-  "description": "It's just better.",
+  "description": "Cleaner more condensed version of the default dark theme.",
   "license": "MIT",
-  "repository": "https://github.com/atom/atom-dark-ui",
+  "repository": "https://github.com/mattieuga/proton-theme",
   "engines": {
     "atom": ">0.40.0"
   }
