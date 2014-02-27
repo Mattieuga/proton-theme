@@ -12,6 +12,7 @@
 .tool-panel {
   .text(normal);
   position: relative;
+  padding-top: 0px;
 
   background-color: @tool-panel-background-color;
 
@@ -22,6 +23,72 @@
 
   &.panel-left {
     border-right: 1px solid @tool-panel-border-color;
+  }
+
+  .block {
+    .description {
+      display: none;
+    }
+
+    .options-label {
+      display: none;
+    }
+  }
+
+  &.project-find {
+    .btn-group.btn-group-options {
+      width: 70px;
+
+      .btn {
+        padding: 0px 5px;
+      }
+    }
+
+    .btn-group.btn-group-replace-all {
+      width: 70px;
+
+      .btn {
+        font-size: 10px;
+        padding: 0px 5px;
+      }
+    }
+  }
+
+  &.find-and-replace {
+    .btn-group.btn-group-options {
+      width: 90px;
+
+      .btn {
+        padding: 0px 5px;
+      }
+    }
+
+    .btn-group.btn-group-replace-all {
+      width: 90px;
+
+      .btn {
+        font-size: 11px;
+        padding: 0px 5px;
+      }
+    }
+
+    .btn-group.btn-group-find {
+      width: 170px;
+
+      .btn {
+        font-size: 11px;
+        padding: 0px 5px;
+      }
+    }
+
+    .btn-group.btn-group-replace {
+      width: 170px;
+
+      .btn {
+        font-size: 11px;
+        padding: 0px 5px;
+      }
+    }
   }
 }
 
